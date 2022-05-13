@@ -22,15 +22,15 @@
     <form>
         <div id="contact-section">
         <fieldset id="contactflex">
-        <h3>Contact Information</h3>   
+        <legend>Contact Information</legend>   
     <label for="name" class="textboxlabel">Name</label>
-    <input type="text" id="name" name="user_name" class="blueform">
+    <input type="text" id="name" name="user_name" class="blueform" placeholder="First Last">
     <br>
     <label for="email" class="textboxlabel">Email Address</label>
-    <input type="text" id="email" name="user_email" class="blueform">
+    <input type="email" id="email" name="user_email" class="blueform" placeholder="name@email.com">
     <br>
     <label for="phone" class="textboxlabel">Phone Number</label>
-    <input type="text" id="phone" name="user_phone" class="blueform">
+    <input type="tel" id="phone" name="user_phone" class="blueform" placeholder="(123) 456-7890">
     <br>
     <label for="address" class="textboxlabel">Street Address</label>
     <input type="text" id="address" name="user_address" class="blueform">
@@ -102,7 +102,7 @@
 </div> 
     <div id="newsletter-section">
     <fieldset>
-    <h3>Newsletter</h3>        
+    <legend id="newsletter-legend">Newsletter</legend>        
     <p>Select the newsletters you would like to receive</p>
     <input type="checkbox" id="html-news" name="html-news">
     <label for="html-news">HTML News</label>
