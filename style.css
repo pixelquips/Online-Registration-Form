@@ -100,6 +100,10 @@ textarea {
     height: 150px;
 }
 
+input::placeholder {
+    text-align: right;
+}
+
 input, select, textarea {
     background-color: #EFF0F1;
     border: none;
